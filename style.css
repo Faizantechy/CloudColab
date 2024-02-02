@@ -1,0 +1,131 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container{
+    border: 50px solid black;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.first-section h2{
+font-size: 22px;
+position: relative;
+bottom: 10px;
+text-align: center;
+}
+
+.first-section h3{
+
+    font-size: 2.50rem;
+text-align: center;
+padding-top: 20px;
+}
+
+.first-section {
+
+display: flex;
+justify-content: space-evenly;
+padding-top: 50px;
+
+
+}
+
+.first-section img{
+
+
+    /* width: 520px;
+    height: 500px; */
+}
+.colab{
+
+    font-weight: 200;
+}
+
+.first-section p{
+
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.first-section input{
+
+    width: 380px;
+    height: 55px;
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+
+
+.inputbtn{
+background-color: rgb(81, 81, 255);
+color: white;
+font-weight: 600;
+
+}
+
+.para2{
+
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+.anchor{
+
+    text-decoration: none;
+    color: rgb(81, 81, 255);
+}
+
+.lines{
+
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+
+}
+
+.line1{
+
+    width: 150px;
+    border: 1px solid gray;
+    height: 2px;
+    width: 48%;
+
+}
+
+
+
+.line2{
+
+    width: 48%;
+    border: 1px solid gray;
+    height: 2px;
+    
+}
+
+.lines span{
+
+    font-weight: 400;
+    position: relative;
+    bottom: 10px;
+}
+
+.imaage{
+
+    position: relative;
+    width: 20px;
+    right: 280px;
+    top: 25px;
+}
